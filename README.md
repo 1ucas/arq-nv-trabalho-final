@@ -8,3 +8,8 @@ Para melhor entendimento, segue exemplo abaixo:
 
 ### 
 ![alt text](https://github.com/1ucas/arq-nv-trabalho-final/blob/master/exemplo.png)
+
+
+## Funcionamento Geral das APIs
+
+### API de Identity
