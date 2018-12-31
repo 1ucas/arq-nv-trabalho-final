@@ -1,0 +1,14 @@
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\bin\Debug\netcoreapp2.1\Ordering.Microservice.deps.json
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\bin\Debug\netcoreapp2.1\Ordering.Microservice.runtimeconfig.json
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\bin\Debug\netcoreapp2.1\Ordering.Microservice.runtimeconfig.dev.json
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\bin\Debug\netcoreapp2.1\Ordering.Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.csprojAssemblyReference.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.csproj.CoreCompileInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.RazorAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.RazorAssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.AssemblyInfoInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.AssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.RazorTargetAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\bin\Debug\netcoreapp2.1\Ordering.Microservice.pdb
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Ordering.Microservice\Ordering.Microservice\obj\Debug\netcoreapp2.1\Ordering.Microservice.pdb

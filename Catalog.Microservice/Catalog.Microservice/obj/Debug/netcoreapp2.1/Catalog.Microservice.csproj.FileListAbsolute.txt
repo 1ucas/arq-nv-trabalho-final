@@ -1,0 +1,13 @@
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\bin\Debug\netcoreapp2.1\Catalog.Microservice.deps.json
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\bin\Debug\netcoreapp2.1\Catalog.Microservice.runtimeconfig.json
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\bin\Debug\netcoreapp2.1\Catalog.Microservice.runtimeconfig.dev.json
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\bin\Debug\netcoreapp2.1\Catalog.Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.csproj.CoreCompileInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.RazorAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.RazorAssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.AssemblyInfoInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.AssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.RazorTargetAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\bin\Debug\netcoreapp2.1\Catalog.Microservice.pdb
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Catalog.Microservice\Catalog.Microservice\obj\Debug\netcoreapp2.1\Catalog.Microservice.pdb

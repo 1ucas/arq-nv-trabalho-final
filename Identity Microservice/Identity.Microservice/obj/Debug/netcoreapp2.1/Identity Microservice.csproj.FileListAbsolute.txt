@@ -1,0 +1,14 @@
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\bin\Debug\netcoreapp2.1\Identity Microservice.deps.json
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\bin\Debug\netcoreapp2.1\Identity Microservice.runtimeconfig.json
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\bin\Debug\netcoreapp2.1\Identity Microservice.runtimeconfig.dev.json
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\bin\Debug\netcoreapp2.1\Identity Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\bin\Debug\netcoreapp2.1\Identity Microservice.pdb
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.csproj.CoreCompileInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.RazorAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.RazorAssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.AssemblyInfoInputs.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.AssemblyInfo.cs
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.RazorTargetAssemblyInfo.cache
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.dll
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.pdb
+D:\Repos PosGrad\trabalho-final-nuvens\Identity Microservice\Identity Microservice\obj\Debug\netcoreapp2.1\Identity Microservice.csprojAssemblyReference.cache
