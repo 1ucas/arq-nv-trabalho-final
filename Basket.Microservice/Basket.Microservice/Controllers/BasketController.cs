@@ -10,21 +10,23 @@ namespace Basket.Microservice.Controllers
     [ApiController]
     public class BasketController : ControllerBase
     {
+        private BasketRepository reposository;
+
+        public BasketController()
+        {
+            reposository = new BasketRepository();
+        }
+
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public Basket Get([FromQuery] int userId)
         {
-            return new string[] { "value1", "value2" };
+            return BasketRepository.Carrinhos.FirstOrDefault(c=> c.UserId == userId);
         }
         
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpDelete("expirados")]
+        public void DeletaExpirados()
         {
-            return "value";
-        }
-        
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
+            BasketRepository.Carrinhos.RemoveAll(c => c.Expired);
         }
     }
 }

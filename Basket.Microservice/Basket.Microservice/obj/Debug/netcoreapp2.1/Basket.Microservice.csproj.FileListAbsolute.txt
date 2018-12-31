@@ -11,3 +11,4 @@ D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\o
 D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.pdb
 D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.dll
 D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.pdb
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.csprojAssemblyReference.cache

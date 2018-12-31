@@ -11907,11 +11907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Ordering.Microservice\\Ordering.Microservice\\Ordering.Microservice.csproj",
+      "projectUniqueName": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Ordering.Microservice\\Ordering.Microservice\\Ordering.Microservice.csproj",
       "projectName": "Ordering.Microservice",
-      "projectPath": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Ordering.Microservice\\Ordering.Microservice\\Ordering.Microservice.csproj",
+      "projectPath": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Ordering.Microservice\\Ordering.Microservice\\Ordering.Microservice.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Ordering.Microservice\\Ordering.Microservice\\obj\\",
+      "outputPath": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Ordering.Microservice\\Ordering.Microservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
