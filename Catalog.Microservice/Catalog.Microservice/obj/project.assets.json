@@ -12643,11 +12643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Catalog.Microservice\\Catalog.Microservice\\Catalog.Microservice.csproj",
+      "projectUniqueName": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Catalog.Microservice\\Catalog.Microservice\\Catalog.Microservice.csproj",
       "projectName": "Catalog.Microservice",
-      "projectPath": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Catalog.Microservice\\Catalog.Microservice\\Catalog.Microservice.csproj",
+      "projectPath": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Catalog.Microservice\\Catalog.Microservice\\Catalog.Microservice.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos PosGrad\\trabalho-final-nuvens\\Catalog.Microservice\\Catalog.Microservice\\obj\\",
+      "outputPath": "D:\\Repos PosGrad\\arq-nv-trabalho-final\\Catalog.Microservice\\Catalog.Microservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

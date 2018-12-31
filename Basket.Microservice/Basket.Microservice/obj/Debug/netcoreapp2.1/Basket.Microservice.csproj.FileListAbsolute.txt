@@ -1,0 +1,13 @@
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.deps.json
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.runtimeconfig.json
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.runtimeconfig.dev.json
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.dll
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.csproj.CoreCompileInputs.cache
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.RazorAssemblyInfo.cache
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.RazorAssemblyInfo.cs
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.AssemblyInfoInputs.cache
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.AssemblyInfo.cs
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.RazorTargetAssemblyInfo.cache
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\bin\Debug\netcoreapp2.1\Basket.Microservice.pdb
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.dll
+D:\Repos PosGrad\arq-nv-trabalho-final\Basket.Microservice\Basket.Microservice\obj\Debug\netcoreapp2.1\Basket.Microservice.pdb
