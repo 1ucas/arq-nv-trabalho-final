@@ -1,0 +1,11 @@
+Trabalho Final de Arquitetura de Nuvens
+
+Aluno: Lucas Ramos Maciel
+
+Arquivos:
+
+Todos arquivos, incluindo os scripts de conteinerização se encontram no seguinte Github:
+
+https://github.com/1ucas/arq-nv-trabalho-final
+
+Para facilitar o entendimento e a correção foi  incluído um arquivo Readme mais detalhado no repositório.
