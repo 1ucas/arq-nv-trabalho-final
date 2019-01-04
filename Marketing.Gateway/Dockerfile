@@ -7,7 +7,7 @@ COPY ./ ./
 # build for release
 RUN mvn package
 
-EXPOSE 9097
+EXPOSE 9098
 
 # set the startup command to run your binary
-CMD ["java", "-jar", "./target/gs-rest-service-0.1.0.jar"]
+CMD ["java", "-jar", "./target/marketing-gateway-0.1.0.jar"]
