@@ -1,8 +1,34 @@
 version: '3'
 services:
-  web:
-    build: .
+  identity-ms:
+    build: ./Identity.Microservice/Identity.Microservice
     ports:
-     - "5000:5000"
-  redis:
-    image: "redis:alpine"
+     - "9091:9091"
+  catalog-ms:
+    build: ./Catalog.Microservice/Catalog.Microservice
+    ports:
+     - "9092:9092"
+  ordering-ms:
+    build: ./Ordering.Microservice/Ordering.Microservice
+    ports:
+     - "9093:9093"
+  basket-ms:
+    build: ./Basket.Microservice/Basket.Microservice
+    ports:
+     - "9094:9094"
+  marketing-ms:
+    build: ./Marketing.Microservice
+    ports:
+     - "9096:9096"
+  locations-ms:
+    build: ./Locations.Microservice
+    ports:
+     - "9097:9097"
+  shopping-gtw:
+    build: ./Shopping.Gateway
+    ports:
+     - "9095:9095"
+  marketing-gtw:
+    build: ./Marketing.Gateway
+    ports:
+     - "9098:9098"
