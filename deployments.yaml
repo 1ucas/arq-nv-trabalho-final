@@ -1,0 +1,52 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: eshopapp
+spec:
+  template:
+    metadata:
+      labels:
+        app: eshop
+        component: eshopapp
+    spec:
+      containers:
+      - name: identity-ms
+        image: identity-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9091
+      - name: catalog-ms
+        image: catalog-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9092
+      - name: ordering-ms
+        image: ordering-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9093
+      - name: basket-ms
+        image: basket-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9094
+      - name: marketing-ms
+        image: marketing-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9096
+      - name: locations-ms
+        image: locations-ms-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9097
+      - name: shopping-gtw
+        image: shopping-gateway-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9095
+      - name: marketing-gtw
+        image: marketing-gateway-image
+		imagePullPolicy: Never
+        ports:
+          - containerPort: 9098
