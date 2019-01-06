@@ -18,7 +18,7 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 ### API de Identity
 (Swagger Disponível)
 
-**Rotas:
+**Rotas:**
 
 /api/login [POST] -> Realiza o Login e Busca um Token de Utilização
 /api/users [GET] -> Passa o Token e Recupera todas informações do Usuário
@@ -26,7 +26,7 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 ### API de Catálogo
 (Swagger Disponível)
 
-**Rotas:
+**Rotas:**
 
 /api/books/{id} [GET] -> Busca um livro pelo Id
 /api/books [GET] -> Realiza uma busca global dos livros com a possibilidade de filtrar por autor
@@ -34,7 +34,7 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 ### API de Ordering
 (Swagger Disponível)
 
-**Rotas:
+**Rotas:**
 
 /api/ordering [POST] -> Cria uma nova ordem de compra
 /api/ordering/{id} [GET] -> Busca uma ordem pelo Id
@@ -42,21 +42,21 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 ### API de Carrinho (Basket)
 (Swagger Disponível)
 
-**Rotas:
+**Rotas:**
 
 /api/basket [DELETE] -> Remove todos os carrinhos expirados. A propriedade de carrinho expirado deve ser gerenciada conforme necessidade do gerente do sistema
 /api/basket/{userId} [GET] -> Busca um carrinho através do Id do usuário relacionado
 
 ### API de Marketing
 
-**Rotas:
+**Rotas:**
 
 /api/privacidade [GET] -> Obtém os termos de privacidade de usuário do sistema
 /api/termos [GET] -> Obtém os termos de uso do sistema
 
 ### API de Localização (Locations)
 
-**Rotas:
+**Rotas:**
 
 /api/location [POST] -> Adiciona uma nova localização
 /api/location/{userId} [GET] -> Busca as localizações registradas de um usuários
@@ -78,3 +78,19 @@ Tem o objetivo de expor os serviços de ações promocionais, termos de uso e in
 ** Serviços agregados:
 - Marketing
 - Locations
+
+
+## Contêineres das APIs
+
+Cada API tem em sua pasta um arquivo Dockerfile que descreve seu contêiner. Foram seguidos os seguintes padrões:
+- Nas APIs .NET foram usadas as imagens padrão da Microsoft: **microsoft/dotnet:aspnetcore-runtime** e **microsoft/dotnet:sdk**
+- A API em Node.Js foi usada a usagem padrão **node:8**
+- A API de Marketing e os Gateways foram todos construídos em Java (Spring) usando **Maven** como gerador do .JAR, com isso a imagem padrão foi a **maven:3.5-jdk-8** 
+
+## Docker Compose
+
+Para funcionarem corretamente ao realizar o deploy em uma máquina, cada contêiner (incluíndo os Gateways) foi direcionado para uma porta variando de *9091* até *9098*.
+
+## Kubernetes
+
+A utilização do Kubernetes foi feita através do arquivo *deployments.yaml*. Este arquivo contém uma descrição semelhante em relação ao Docker Compose, direcionando os contêineres para as devidas portas. Para facilitar o entendimento, todos as APIs e Gateways tiveram seu deploy em uma mesmo *POD*, de forma que os serviços acessassem uns aos outros em modo localhost.
