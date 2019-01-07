@@ -20,46 +20,46 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 
 **Rotas:**
 
--/api/login [POST] -> Realiza o Login e Busca um Token de Utilização
--/api/users [GET] -> Passa o Token e Recupera todas informações do Usuário
+-/ api/login [POST] -> Realiza o Login e Busca um Token de Utilização
+-/ api/users [GET] -> Passa o Token e Recupera todas informações do Usuário
 
 ### API de Catálogo
 (Swagger Disponível)
 
 **Rotas:**
 
--/api/books/{id} [GET] -> Busca um livro pelo Id
--/api/books [GET] -> Realiza uma busca global dos livros com a possibilidade de filtrar por autor
+-/ api/books/{id} [GET] -> Busca um livro pelo Id
+-/ api/books [GET] -> Realiza uma busca global dos livros com a possibilidade de filtrar por autor
 
 ### API de Ordering
 (Swagger Disponível)
 
 **Rotas:**
 
--/api/ordering [POST] -> Cria uma nova ordem de compra
--/api/ordering/{id} [GET] -> Busca uma ordem pelo Id
+-/ api/ordering [POST] -> Cria uma nova ordem de compra
+-/ api/ordering/{id} [GET] -> Busca uma ordem pelo Id
 
 ### API de Carrinho (Basket)
 (Swagger Disponível)
 
 **Rotas:**
 
--/api/basket [DELETE] -> Remove todos os carrinhos expirados. A propriedade de carrinho expirado deve ser gerenciada conforme necessidade do gerente do sistema
--/api/basket/{userId} [GET] -> Busca um carrinho através do Id do usuário relacionado
+-/ api/basket [DELETE] -> Remove todos os carrinhos expirados. A propriedade de carrinho expirado deve ser gerenciada conforme necessidade do gerente do sistema
+-/ api/basket/{userId} [GET] -> Busca um carrinho através do Id do usuário relacionado
 
 ### API de Marketing
 
 **Rotas:**
 
--/api/privacidade [GET] -> Obtém os termos de privacidade de usuário do sistema
--/api/termos [GET] -> Obtém os termos de uso do sistema
+-/ api/privacidade [GET] -> Obtém os termos de privacidade de usuário do sistema
+-/ api/termos [GET] -> Obtém os termos de uso do sistema
 
 ### API de Localização (Locations)
 
 **Rotas:**
 
--/api/location [POST] -> Adiciona uma nova localização
--/api/location/{userId} [GET] -> Busca as localizações registradas de um usuários
+-/ api/location [POST] -> Adiciona uma nova localização
+-/ api/location/{userId} [GET] -> Busca as localizações registradas de um usuários
 
 ### Gateway de Compras (Shopping)
 
@@ -94,3 +94,12 @@ Para funcionarem corretamente ao realizar o deploy em uma máquina, cada contêi
 ## Kubernetes
 
 A utilização do Kubernetes foi feita através do arquivo *deployments.yaml*. Este arquivo contém uma descrição semelhante em relação ao Docker Compose, direcionando os contêineres para as devidas portas. Para facilitar o entendimento, todos as APIs e Gateways tiveram seu deploy em uma mesmo *POD*, de forma que os serviços acessassem uns aos outros em modo localhost.
+
+## Ações Futuras
+
+Foram mapeadas ações futuras para o projeto que podem ser usadas como lembretes para desenvolvedores que utilizarem este repositório. Estas ações foram baseadas nas boas práticias de construção de APIs e na necessidade de gerênciamento ao escalar serviços em contêineres. Algumas das práticas recomendadas, aprendidas no curso e em cursos anteriores não foram adotadas visto que este repositório tem o objetivo estrito de ser um exemplo de conteinerização de microserviços. 
+
+- [ ] Incluír Testes Unitários nas APIs 
+- [ ] Separar as APIs em diferentes services no Kubernetes visto que cada serviço escala de uma forma distinta
+- [ ] Incluír Swagger das APIs de *Marketing* e *Locations*
+- [ ] Implementar o versionamento das APIs
