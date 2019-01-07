@@ -97,7 +97,7 @@ A utilização do Kubernetes foi feita através do arquivo *deployments.yaml*. E
 
 ## Ações Futuras
 
-Foram mapeadas ações futuras para o projeto que podem ser usadas como lembretes para desenvolvedores que utilizarem este repositório. Estas ações foram baseadas nas boas práticias de construção de APIs e na necessidade de gerênciamento ao escalar serviços em contêineres. Algumas das práticas recomendadas, aprendidas no curso e em cursos anteriores não foram adotadas visto que este repositório tem o objetivo estrito de ser um exemplo de conteinerização de microserviços. 
+Foram mapeadas ações futuras para o projeto que podem ser usadas como lembretes para desenvolvedores que utilizarem este repositório. Estas ações foram baseadas nas boas práticias de construção de APIs e na necessidade de gerênciamento ao escalar serviços em contêineres. Algumas das boas práticas recomendadas, aprendidas no curso e em cursos anteriores não foram adotadas visto que este repositório tem o objetivo estrito de ser um exemplo de conteinerização de microserviços.
 
 - [ ] Incluír Testes Unitários nas APIs 
 - [ ] Separar as APIs em diferentes services no Kubernetes visto que cada serviço escala de uma forma distinta
