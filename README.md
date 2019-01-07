@@ -20,52 +20,52 @@ Com isso um mente, foram disponibilizadas duas rotas de testes em cada uma delas
 
 **Rotas:**
 
-/api/login [POST] -> Realiza o Login e Busca um Token de Utilização
-/api/users [GET] -> Passa o Token e Recupera todas informações do Usuário
+-/api/login [POST] -> Realiza o Login e Busca um Token de Utilização
+-/api/users [GET] -> Passa o Token e Recupera todas informações do Usuário
 
 ### API de Catálogo
 (Swagger Disponível)
 
 **Rotas:**
 
-/api/books/{id} [GET] -> Busca um livro pelo Id
-/api/books [GET] -> Realiza uma busca global dos livros com a possibilidade de filtrar por autor
+-/api/books/{id} [GET] -> Busca um livro pelo Id
+-/api/books [GET] -> Realiza uma busca global dos livros com a possibilidade de filtrar por autor
 
 ### API de Ordering
 (Swagger Disponível)
 
 **Rotas:**
 
-/api/ordering [POST] -> Cria uma nova ordem de compra
-/api/ordering/{id} [GET] -> Busca uma ordem pelo Id
+-/api/ordering [POST] -> Cria uma nova ordem de compra
+-/api/ordering/{id} [GET] -> Busca uma ordem pelo Id
 
 ### API de Carrinho (Basket)
 (Swagger Disponível)
 
 **Rotas:**
 
-/api/basket [DELETE] -> Remove todos os carrinhos expirados. A propriedade de carrinho expirado deve ser gerenciada conforme necessidade do gerente do sistema
-/api/basket/{userId} [GET] -> Busca um carrinho através do Id do usuário relacionado
+-/api/basket [DELETE] -> Remove todos os carrinhos expirados. A propriedade de carrinho expirado deve ser gerenciada conforme necessidade do gerente do sistema
+-/api/basket/{userId} [GET] -> Busca um carrinho através do Id do usuário relacionado
 
 ### API de Marketing
 
 **Rotas:**
 
-/api/privacidade [GET] -> Obtém os termos de privacidade de usuário do sistema
-/api/termos [GET] -> Obtém os termos de uso do sistema
+-/api/privacidade [GET] -> Obtém os termos de privacidade de usuário do sistema
+-/api/termos [GET] -> Obtém os termos de uso do sistema
 
 ### API de Localização (Locations)
 
 **Rotas:**
 
-/api/location [POST] -> Adiciona uma nova localização
-/api/location/{userId} [GET] -> Busca as localizações registradas de um usuários
+-/api/location [POST] -> Adiciona uma nova localização
+-/api/location/{userId} [GET] -> Busca as localizações registradas de um usuários
 
 ### Gateway de Compras (Shopping)
 
 Tem o objetivo de expor para o frontend os serviços relacionados ao Login e produtos (busca e compra).
 
-** Serviços agregados:
+**Serviços agregados:**
 - Identity
 - Catalog
 - Ordering
@@ -75,7 +75,7 @@ Tem o objetivo de expor para o frontend os serviços relacionados ao Login e pro
 
 Tem o objetivo de expor os serviços de ações promocionais, termos de uso e informações estratégicas para o marketing, como a localização de cada usuário.
 
-** Serviços agregados:
+**Serviços agregados:**
 - Marketing
 - Locations
 
